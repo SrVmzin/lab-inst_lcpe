@@ -603,12 +603,122 @@ margin-left: 20px;
   flex-direction: column;
 }
 
-.atompng{
-  display: flex;
-  width: 80px;
-  height:80px;
+.body4 {
+  background: url('/codigos/Images/image 3.png') no-repeat fixed;
+  background-size: cover;
+  margin: 0;
+  font-family: sans-serif;
+position: relative;
+height:550px;
+
 }
 
-.atompng .lgh1{
+.box-login1 {
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 50px auto;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  position: relative;
+  top:50px;
+}
+
+.content-left {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.title-icon h1 {
+  font-size: 50px;
+  position: relative;
+  left: -40%;
+}
+
+.atompng {
+  width: 80px;
+  height: auto;
+  position:relative;
+  left: -42%;
+}
+
+.p1, .p2 {
+  margin-top: 5px;
+  line-height: 1.5;
+}
+
+.p1{
+  position: relative;
+  left: -35%;
+  font-size: 20px;
+}
+
+.p2{
+  position: relative;
+  left: -32%;
+  font-size: 15px;
+}
+
+
+.science-images {
+  margin-top: 10px;
+  display: flex;
+}
+
+.science-images img {
+  width: 200px;
+  height: auto;
+}
+
+.login-container {
+  background: #f9f9f9;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 300px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.login-form input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form button {
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.forgot-password {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #333;
+  text-decoration: underline;
 }
